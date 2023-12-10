@@ -44,7 +44,7 @@ const telegram = new TelegramClient(stringSession, apiId, apiHash, {
 });
 (async () => {
 	await telegram.start({
-		phoneNumber: "5517991667512",
+		phoneNumber: "5517991929446",
 		password: async () => await input.text("insira sua senha: "),
 		phoneCode: async () =>
 		await input.text("Insira o codigo recebido no seu telegram: "),
