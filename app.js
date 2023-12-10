@@ -194,11 +194,11 @@ res.json({
 					await telegram.markAsRead(chat);
 					let str = textPure;
 					str = str.replace(/🔛 \*\*BY:\*\* @SkynetBlackRobot|\*\*|  |`|🔍 | 🔍/gi, "");
-					str = str.replace(/\n\n\n|USUÁRIO: Felipe SDS/gi, '');
+					str = str.replace(/\n\n\n|USUÁRIO: bruno/gi, '');
 					str = str.replace(/• USUÁRIO: Felipe SDS/gi, '');
 					str = str.replace(/PRIV CONSULTA /gi, '');
-					str = str.replace(/\n\n• USUÁRIO: Felipe SDS\n\nBY: @FragBuscasBot/gi, '');
-					str = str.replace(/USUÁRIO: Felipe SDS/gi, '');
+					str = str.replace(/\n\n• USUÁRIO: bruno\n\nBY: @FragBuscasBot/gi, '');
+					str = str.replace(/USUÁRIO: bruno/gi, '');
 						str = str.replace(/\n👤/gi, '');
 								str = str.replace(/PRIV CONSULTA \[BOT\]\n/gi, '');
 								str = str.replace(/\*\*#INFORMAÇÕES\*\* \*\*#DO\*\* \*\*#USUÁRIO\*\*\*:/g, '');
@@ -207,25 +207,25 @@ res.json({
 								
 			
 												str = str.replace(/PRIV CONSULTA \[BOT\]\n/gi, '');
-str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot Felipe SDS\n\n/gi, '');
+str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot bruno\n\n/gi, '');
 str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot\n\n/gi, '');
 str = str.replace(/\nCONSULTA PATROCINADA POR: https:\/\/syxsearch.tech\n\n/gi, '');
 str = str.replace(/\Informações do Usuário:/gi, '');
-str = str.replace(/\📛 Nome: Felipe SDS/gi, '');
-str = str.replace(/\🌐 Usuário: @FelipeSDSzwrka/gi, '');
-str = str.replace(/𝙏𝙀𝙉𝙃𝘼 𝘾𝙊𝙉𝙎𝙄𝙇𝙏𝘼𝙎 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝘼𝙎 𝘼𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘿𝘼𝙎 𝘾𝙊𝙉𝙏𝘼𝙏𝘼𝙉𝘿𝙊 𝙐𝙐 𝘿𝙀 𝙉𝙊𝙎𝙎𝙊𝙎 𝙋𝘼𝙄𝙉𝙀𝙄𝙎 𝙋𝙇𝘼𝙉𝙊𝙎 𝘼 𝙋𝘼𝙍𝙏𝙄𝙍 𝘿𝙀 40 𝙍𝙀𝘼𝙄𝙎/gi, '');
-str = str.replace(/\🆔 ID: 6704877714/gi, '');
-					str = str.replace(/USUÁRIO: Felipe SDS/gi, '');		
+str = str.replace(/\📛 Nome: bruno/gi, '');
+str = str.replace(/\🌐 Usuário: @draxx_consultas/gi, '');
+str = str.replace(/𝙏𝙀𝙉𝙃𝘼 𝘾𝙊𝙉𝙎𝙄𝙇𝙏𝘼𝙎 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝘼𝙎 𝘼𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘿𝘼𝙎 𝘾𝙊𝙉𝙏𝘼𝙏𝘼𝙉𝘿𝙊 𝙐𝙐 𝘿𝙀 𝙉𝙊𝙎𝙎𝙊𝙎 𝙋𝘼𝙄𝙉𝙀𝙄𝙎 𝙋𝙇𝘼𝙉𝙊𝙎 𝘼 𝙋𝘼𝙍𝙏𝙄𝙍 𝘿𝙀 10 𝙍𝙀𝘼𝙄𝙎/gi, '');
+str = str.replace(/\🆔 ID: 1355415697/gi, '');
+					str = str.replace(/USUÁRIO: bruno/gi, '');		
 					str = str.replace(/\n👤/gi, '');
 
 str = str.replace(/#INFORMAÇÕES #DO #USUÁRIO:/g, '');
-str = str.replace(/🧑🏻 #NOME: Felipe SDS/g, '');
-str = str.replace(/🌐 #USUÁRIO: @FelipeSDSzwrka/g, '');
-str = str.replace(/🆔 #ID: 6704877714/g, '');
+str = str.replace(/🧑🏻 #NOME: bruno/g, '');
+str = str.replace(/🌐 #USUÁRIO: @draxx_consultas/g, '');
+str = str.replace(/🆔 #ID: 1355415697/g, '');
 str = str.replace(/𝙏𝙀𝙉𝙃𝘼 𝘾𝙊𝙉𝙎𝙐𝙇𝙏𝘼𝙎 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝘼𝙎 𝘼𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘿𝘼𝙎 𝘼 𝘾𝙊𝙈 𝙏𝙊𝙏𝘼𝙇 𝙋𝙍𝙄𝙑𝘼𝘾𝙄𝘿𝘼𝘿𝙀 𝘾𝙊𝙉𝙏𝙍𝘼𝙏𝘼𝙉𝘿𝙊 𝙐𝙈 𝘿𝙀 𝙉𝙊𝙎𝙎𝙊𝙎 𝙋𝘼𝙄𝙉𝙀𝙄𝙎 𝙋𝙇𝘼𝙉𝙊𝙎 𝘼 𝙋𝘼𝙍𝙏𝙄𝙍 𝘿𝙀 30 𝙍𝙀𝘼𝙄𝙎/g, '');
 
-str = str.replace(/𝙏𝙀𝙉𝙃𝘼 𝘾𝙊𝙉𝙎𝙐𝙇𝙏𝘼𝙎 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝘼𝙎 𝘼𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘿𝘼𝙎  𝘾𝙊𝙈 𝙏𝙊𝙏𝘼𝙇 𝙋𝙍𝙄𝙑𝘼𝘾𝙄𝘿𝘼𝘿𝙀 𝘾𝙊𝙉𝙏𝙍𝘼𝙏𝘼𝙉𝘿𝙊 𝙐𝙈 𝘿𝙀 𝙉𝙊𝙎𝙎𝙊𝙎 𝙋𝘼𝙄𝙉𝙀́𝙄𝙎 𝙋𝙇𝘼𝙉𝙊𝙎 𝘼 𝙋𝘼𝙍𝙏𝙄𝙍 𝘿𝙀 40 𝙍𝙀𝘼𝙄𝙎/g, '');
-str = str.replace(/𝘾𝙃𝘼𝙈𝙀:  @HOLLYWOODPAINEL/g, '');
+str = str.replace(/𝙏𝙀𝙉𝙃𝘼 𝘾𝙊𝙉𝙎𝙐𝙇𝙏𝘼𝙎 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝘼𝙎 𝘼𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘿𝘼𝙎  𝘾𝙊𝙈 𝙏𝙊𝙏𝘼𝙇 𝙋𝙍𝙄𝙑𝘼𝘾𝙄𝘿𝘼𝘿𝙀 𝘾𝙊𝙉𝙏𝙍𝘼𝙏𝘼𝙉𝘿𝙊 𝙐𝙈 𝘿𝙀 𝙉𝙊𝙎𝙎𝙊𝙎 𝙋𝘼𝙄𝙉𝙀́𝙄𝙎 𝙋𝙇𝘼𝙉𝙊𝙎 𝘼 𝙋𝘼𝙍𝙏𝙄𝙍 𝘿𝙀 20 𝙍𝙀𝘼𝙄𝙎/g, '');
+str = str.replace(/𝘾𝙃𝘼𝙈𝙀:  @BINGSIXBOT/g, '');
 str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot Felipe SDS\n\n/gi, '');
 str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot\n\n/gi, '');
 str = str.replace(/_--_Doom\n/gi, '');
@@ -327,24 +327,24 @@ res.json({
 					};
 					let str = textPure;
 					str = str.replace(/🔛 \*\*BY:\*\* @SkynetBlackRobot|\*\*|• |`|🔍 | 🔍/gi, "");
-					str = str.replace(/\n\n\n|USUÁRIO: Felipe SDS/gi, '');
+					str = str.replace(/\n\n\n|USUÁRIO: bruno/gi, '');
 					str = str.replace(/CONSULTA DE TELEFONE\n\n/gi, '');
 					str = str.replace(/CONSULTA DE CPF\n\n/gi, '');
-					str = str.replace(/• USUÁRIO: Felipe SDS/gi, '');
-					str = str.replace(/\n\n• USUÁRIO: Felipe SDS\n\nBY: @FragBuscasBot/gi, '');
+					str = str.replace(/• USUÁRIO: bruno/gi, '');
+					str = str.replace(/\n\n• USUÁRIO: bruno\n\nBY: @FragBuscasBot/gi, '');
 			str = str.replace(/\n👤/gi, '');
-str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot Felipe SDS\n\n/gi, '');
+str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot bruno\n\n/gi, '');
 str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot\n\n/gi, '');
 str = str.replace(/\nCONSULTA PATROCINADA POR: https:\/\/syxsearch.tech\n\n/gi, '');
 
-					str = str.replace(/USUÁRIO: Felipe SDS/gi, '');
+					str = str.replace(/USUÁRIO: bruno/gi, '');
 					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗖𝗣𝗙\n\n/gi, '');
 					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗣𝗟𝗔𝗖𝗔\n\n/gi, '');
 					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗧𝗘𝗟𝗘𝗙𝗢𝗡𝗘\n\n/gi, '');
 					str = str.replace(/𝗖𝗢𝗡𝗦𝗨𝗟𝗧𝗔 𝗗𝗘 𝗡𝗢𝗠𝗘\n\n/gi, '');
-					str = str.replace(/👤 USUÁRIO: Felipe SDS\n\n/gi, '');
+					str = str.replace(/👤 USUÁRIO: bruno\n\n/gi, '');
 str = 		str = str.replace(/\n👤/gi, '');
-str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot Felipe SDS\n\n/gi, '');
+str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot bruno\n\n/gi, '');
 str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot\n\n/gi, '');
 str = str.replace(/ \nCONSULTA PATROCINADA POR: https:\/\/syxsearch.tech/gi, '');
 
