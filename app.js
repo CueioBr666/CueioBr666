@@ -34,8 +34,8 @@ function makeid(length) {
 var achou = false;
 var db = JSON.parse(fs.readFileSync("db.json"));
 
-const apiId = 25805879
-const apiHash = "effcc8a33f31af22c37544523b7996d0";
+const apiId = 26126185
+const apiHash = "0fb4d8051ba75a29f702c09294cc0bef";
 const stringSession = new StringSession(
 	"1AQAOMTQ5LjE1NC4xNzUuNTQBu25LiKJZBqlcVo/n4r/9/G7SEzGVqb/chU2Mld8WTrYpIdQGim3ReFeUlzSbw6D6tQxeWendSS/Ru5JlInzMx/xMJWcJNFx9PtpDS9nUD9R725M1kEqw6lCGujnhk46l3alZfep1kIZQzow7mTCaGUNsQ0k/cN+uIhUC5NYPWdY6oukPEar9nOId+VI5otrrD7kYWiS2+zAOyQ0/QVQ/+I56k1UcYCqNYScanqLD1Vljts3YXgG2nfvAsUX5x+V/nBuRusWpxKrI8CZG7eA9MKbbX/gvyMpVuy26gzbmJ52SIMTNsbPIl4p7AwIpdF2MxalYh4s0jNQ72cX3EAFgElM="
 );
